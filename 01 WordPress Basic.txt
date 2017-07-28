@@ -9,7 +9,8 @@ https://wordpress.org/download/
 
 
 1.2 Database and User Creation:
-We've to create a database like "mydatabase" and an user like "myadmin". We've to associate the user with database if necessary.
+We've to create a database like "mydatabase" and an user like "myadmin". We've to associate the user 
+with database if necessary.
 
 We should remember and note the four points below before WordPress installation:
 
@@ -20,9 +21,12 @@ d. table prefix (wp_)
 
 
 1.3 Save WordPress Content:
-We've to upload the contents of WordPress at root directory of hosting folder. The possible name of root directory may "public_html".
+We've to upload the contents of WordPress at root directory of hosting folder. The possible name of 
+root directory may "public_html".
 
-If we use localhost then we've create a folder like "mydomain" at root directory of localhost and save the contents of WordPress zipped file. The folder names of root directories of localhost are "www" and "htdoc" for WAMP and XAMPP respectively.
+If we use localhost then we've create a folder like "mydomain" at root directory of localhost and 
+save the contents of WordPress zipped file. The folder names of root directories of localhost are 
+"www" and "htdoc" for WAMP and XAMPP respectively.
 
 
 1.4 WordPress Installation:
@@ -30,7 +34,8 @@ We've to browse the domain like "mydomain.com" or browse the following location 
 
 localhost/mydomain
 
-Here "mydomain" is the folder name that we've created under the localhost's root directory and pasted the all contents of WordPress.
+Here "mydomain" is the folder name that we've created under the localhost's root directory and pasted 
+the all contents of WordPress.
 
 
 1.5 Installation Info:
@@ -43,5 +48,6 @@ d. table prefix (wp_)
 
 
 1.6 WordPress User Info:
-After installation sucessfully we've to provide WordPress user information like website name, WordPress user name, WordPress user id, WordPress user password, WordPress user email etc.
+After installation sucessfully we've to provide WordPress user information like website name, WordPress 
+user name, WordPress user id, WordPress user password, WordPress user email etc.
 -------------------------
