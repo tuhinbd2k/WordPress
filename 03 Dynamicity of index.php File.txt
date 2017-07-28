@@ -1,0 +1,101 @@
+03 Dynamicity of index.php File
+===============================
+
+
+We should the following function to secure any fuction:
+esc-uri(........);
+
+
+
+3.1 Document Type:
+<!DOCTYPE html>
+
+
+
+3.2 Language:
+<html lang="en">
+
+
+
+3.3 Character Set:
+<meta charset="utf-8">
+
+
+
+3.4 Title:
+<title><?php 
+  esc-uri(bloginfo('title')); 
+?></title>
+-------
+<title><?php 
+  esc-uri(bloginfo('name')); 
+?></title>
+-------
+<title><?php 
+  esc-uri(bloginfo('name')); 
+?> | <?php 
+eco-uri(bloginfo('description')); 
+?></title>
+
+
+
+3.5 Style Sheet Linkage:
+<link rel="stylesheet" type="text/css" href="<?php 
+  esc-uri(bloginfo('template_directory')); 
+?>/style.css">
+-------
+<link rel="stylesheet" type="text/css" href="<?php 
+  esc-uri(bloginfo('template_url')); 
+?>/style.css">
+-------
+<link rel="stylesheet" type="text/css" href="<?php 
+  esc-uri(bloginfo('stylesheet_url')); 
+?>/style.css">
+-------
+<link rel="stylesheet" type="text/css" href="<?php 
+  echo esc-uri(get_template_directory_uri()); 
+?>/style.css">
+-------
+
+
+
+3.6 Heading
+<?php 
+  esc-uri(bloginfo('name')); 
+?>
+
+
+
+3.6 Sub-Heading
+<?php 
+eco-uri(bloginfo('description')); 
+?>
+
+
+
+3.7 WP-Admin Bar:
+<?php wp_head(); ?> // before </head> tag
+<?php wp_footer(); ?> // before </body> tag
+
+
+
+3.8 Header Background with function:
+<div id="header" 
+style="background:
+  url(images/header.png)
+  no-repeat;"
+</div>
+-------
+<div id="header" 
+style="background:
+  url(<?php header_image(); ?>)
+  no-repeat;"
+</div>
+
+function:
+add_theme_support(custom-background);
+
+
+3.9 Body Background with function:
+<body <?php body_class(); ?>>
+
