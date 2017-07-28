@@ -1,0 +1,34 @@
+04 The functions.php File
+=========================
+
+
+<?php
+
+... ... ... ...
+
+?>
+
+
+
+4.1 Title Tag:
+add_theme_support('title-tag');
+
+
+
+4.2 Header Background:
+$my_header_image = 
+
+add_theme_support(
+  'custom-header', 
+  array(
+  'default-image' => 
+    et_template_directory_uri().
+    /'images/header.png'
+  )
+);
+
+
+
+4.3 Body Background:
+add_theme-support('custom-background');
+
