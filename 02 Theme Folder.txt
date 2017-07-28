@@ -3,38 +3,38 @@
 
 
 2.1 Theme Folder Creation:
-We've to create a theme folder with the name of our new theme like "mytheme" at the followin 
+We've to create a theme folder with the name of our new theme like "mytheme" at the following 
 Location:
 
 Root-Directory > wp-content\themes\
 
 
 2.2 Theme File Creation:
-We've to create three files uder "mytheme" to recognize and activate the "mytheme" folder as a theme 
-by WordPress, those are as follows:
+We've to create three (3) files under "mytheme" to recognize and activate the "mytheme" folder as a theme 
+directory by WordPress, those files are as follows:
 
 a. Index File  -> index.php
 b. Style Sheet -> style.css
 c. Thumbnail   -> screenshort.png
 
-File name should same as stated above.
+File name should be the same as stated above (spelling and small character).
 
 
 2.3 The style.css File:
-We've to write the following codes as comments in the "style.css" file for a valid CSS to make the 
+We've to write the following codes as comments in the "style.css" file for a valid CSS file to make the 
 theme:
 
 /*
-Theme Name: 
-Theme URI: 
-Author: 
-Author URI: 
-Version: 
-Description: 
+Theme Name: My Theme
+Theme URI: http:/www.mytheme.com
+Author: Atiqur Rahman Tuhin
+Author URI: https://www.linkedin.com/in/tuhinbd2k/
+Version: 1.0
+Description: This is a Test Theme.
 */
 
 
 2.4 The screenshot.png file:
 We've to make a "screenshot.png" to view a thumbnail of the theme. The dimension should be 600px X 450px 
-(width X height). We can it in jpg format also.
+(width X height) exactly. We can make it in jpg format also.
 -------------------------
